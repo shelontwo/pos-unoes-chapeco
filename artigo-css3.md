@@ -24,7 +24,7 @@ São 3 propriedades definidas para a imagem de borda:
 }
 ```
 ##### Exemplo de uso
-A sintaxe para aplicar a 'border-image' completa seria da seguinte forma:
+A sintaxe para aplicar a `border-image` completa seria da seguinte forma:
 
 ```css
 .minha_div{
