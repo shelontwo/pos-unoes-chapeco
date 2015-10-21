@@ -180,4 +180,45 @@ Utilizando o `transform-origin`:
 
 
 
+<h2>Transforms - 3D</h2>
+##### Funcionalidade: Transforms
+##### O que é?
+Semelhante ao transforms falado anteriormente, mas este em especifico será utilizado para funcionalidades 3D.
+##### Onde usar:
+Pode ser usada para criar de animações simples até animações mais complexas utilizando de elementos de seu projeto.
+##### Como usar:
+O Transform possui várias opções, irei abordar as que considero mais válidas incialmente para serem utilizadas com efeitos 3D.
+- rotateX() - Opção utilizada para rotacionar elemento com base em seu eixo X.
+- rotateY() - Opção utilizada para rotacionar elemento com base em seu eixo Y.
+- rotateZ() - Opção utilizada para rotacionar elemento com base em seu eixo Z.
+
+O Transform também pode ser usado com várias outras propriedades:
+- `transform-style` - é o estilo em que o efeito de rotação 3D será aplicado no elemento.
+- `perspective` - define a distancia que ficará o elemento na frente, em relação a sua base.
+- `perspective-origin` - define a distacia referente a origem que o elemento será movido em X e Y.
+- `backface-visibility` - define se o elemento ao girar, será possivel ver a parte de trás do elemento.
+
+##### Exemplo de uso
+A sintaxe para aplicar o `transform` completo seria da seguinte forma:
+
+```css
+.minha_div{ 
+      transform: rotateX(25deg);  // sendo assim rotacionei meu elemento em 25 graus com base no centro dele no eixo X.
+}
+```
+Utilizando as propriedades disponíveis:
+
+```css
+.minha_div{ 
+      transform: rotateX(25deg);
+      perspective: 400px // definido que o elemento ficará 400px a frente de sua base.
+      perspective-origin: 5% 10%; //difinido que o elemento moverá 5% em X e 10% em Y referente a sua posição original.
+}
+```
+Outros metodos podem ser utilizados para rotação 3D:
+ - `matrix3d(n,n,n,n,n)` , `translate3d(x,y,z)` , `translateX(x)` , `translateY(y)` , `translateZ(z)`, `scale3d(x,y,z)`, `scaleX(x)`, `scaleY(y)`, `scaleZ(z)`, `rotate3d(x,y,z,angle)`, `rotateX(angle)`, `rotateY(angle)`, `rotateZ(angle)`, `perspective(x)`.
+
+### Referencia:
+[MAUJOR - Tutoriais CSS](http://www.maujor.com/tutorial/css3-modulo-transition.php)
+
 ------ FIM do artigo ------
