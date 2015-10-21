@@ -135,4 +135,49 @@ A sintaxe para aplicar o `@font-face` completo seria da seguinte forma:
 
 
 
+
+<h2>Transforms - 2D</h2>
+##### Funcionalidade: Transforms
+##### O que é?
+Transforms permitem trabalhar com os elementos, alterando sua escala, rotacionar, mudar posição, mudar tamanho entre outras funcionalidades, trablhar tambem com efeitos 3D e 2D.
+##### Onde usar:
+Pode ser usada para criar de animações simples até animações mais complexas utilizando de elementos de seu projeto.
+##### Como usar:
+O Transform possui várias opções, irei abordar as que considero mais válidas incialmente para serem utilizadas.
+- translate() - Opção utilizada para mover o elementeo conforme coordenadas com base de sua origem.
+- rodate() - Rotaciona um elemento em um determinado grau com base no seu ponto central.
+- scale() - Altera a escala do elemento com base no seu tamanho inicial.
+- skewX() - Distorce o elemento com base no seu eixo X.
+- skewY() - Distorce o elemento com base no seu eixo Y.
+- skew() - Distorce o elemento com base no eixo X e Y.
+- matrix() - Combinação de todas as transformações 2D.
+
+O Transform também pode ser usado com a propriedade `transform-origin` que move o elemento transformado com base na posição inicial, esta propriedade deve ser usada logo em sequencia a `transform`. Estas seriam as principais opções de transformar objetos em 2D.
+```css
+.minha_div{ 
+      transform: <method>(<value>); 
+}
+
+```
+##### Exemplo de uso
+A sintaxe para aplicar o `transform` completo seria da seguinte forma:
+
+```css
+.minha_div{ 
+      transform: rotate(25deg);  // sendo assim rotacionei meu elemento em 25 graus com base no centro dele.
+}
+```
+Utilizando o `transform-origin`:
+```css
+.minha_div{ 
+      transform: rotate(25deg);  // sendo assim rotacionei meu elemento em 25 graus com base no centro dele.
+      transform-origin: 10% 5%; // após transformar o elemento foi movido 10% em X e 5% em Y com base no seu estado inicial.
+}
+```
+
+### Referencia:
+[W3C - transform](http://www.w3schools.com/css/css3_2dtransforms.asp)
+
+
+
 ------ FIM do artigo ------
