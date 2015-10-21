@@ -6,7 +6,7 @@
 ### Artigo de revisão de CSS3
 
 <h1>Funcionalidades CSS3 </h1>
-
+<h2>border-image</h2>
 ##### Funcionalidade: border-image
 ##### O que é?
 Esta propriedade é utilizada para adicionar uma imagem de borda em elementos da página.
@@ -14,9 +14,9 @@ Esta propriedade é utilizada para adicionar uma imagem de borda em elementos da
 Em qualquer elemento que disponibilize o atributo border-image.
 ##### Como usar:
 São 3 propriedades definidas para a imagem de borda:
-1 - URL / Caminho da imagem.
-2 - O tamanho que a imagem ficará na borda em relação a seu tamanho original.
-3 - Específica se a imagem vai se repetir na borda ou será esticada para o tamanho total da borda.
+- 1 - URL / Caminho da imagem.
+- 2 - O tamanho que a imagem ficará na borda em relação a seu tamanho original.
+ - 3 - Específica se a imagem vai se repetir na borda ou será esticada para o tamanho total da borda.
 ```css
 .minha_div{
         border: xy;
@@ -37,7 +37,7 @@ A sintaxe para aplicar a `border-image` completa seria da seguinte forma:
 [W3C - border-image](http://www.w3schools.com/css/css3_border_images.asp)
 
 
-
+<h2>text-shadow</h2>
 ##### Funcionalidade: text-shadow
 ##### O que é?
 Esta propriedade é utilizada para adicionar sombras a textos.
@@ -45,10 +45,10 @@ Esta propriedade é utilizada para adicionar sombras a textos.
 Em elementos que contenham texto.
 ##### Como usar:
 São 4 propriedades definidas para a text-shadow:
-1 - Posição horizontal da sombra.
-2 - Posição vertical da sombra.
-3 - Tamanho da nevoa da sombra em relação ao tamanho original do texto.
-4 - Cor da sombra.
+- 1 - Posição horizontal da sombra.
+- 2 - Posição vertical da sombra.
+- 3 - Tamanho da nevoa da sombra em relação ao tamanho original do texto.
+- 4 - Cor da sombra.
 ```css
 .minha_div h1{
        text-shadow: <x> <y> <z> <color>;
@@ -66,7 +66,7 @@ A sintaxe para aplicar o `text-shadow` completo seria da seguinte forma:
 ### Referencia:
 [W3C - text-shadow](http://www.w3schools.com/css/css3_shadows.asp)
 
-
+<h2>box-shadow</h2>
 ##### Funcionalidade: box-shadow
 ##### O que é?
 Esta propriedade é utilizada para adicionar sombras a elmentos.
@@ -74,10 +74,10 @@ Esta propriedade é utilizada para adicionar sombras a elmentos.
 Em qualquer elemento que possua a propriedade box-shadow.
 ##### Como usar:
 São 4 propriedades definidas para a box-shadow:
-1 - Posição horizontal da sombra.
-2 - Posição vertical da sombra.
-3 - Tamanho da nevoa da sombra em relação ao tamanho original do box.
-4 - Cor da sombra.
+#1 - Posição horizontal da sombra.
+#2 - Posição vertical da sombra.
+#3 - Tamanho da nevoa da sombra em relação ao tamanho original do box.
+#4 - Cor da sombra.
 
 Não necessariamente se utiliza as 4 propriedades.
 
@@ -96,7 +96,7 @@ A sintaxe para aplicar o `box-shadow` completo seria da seguinte forma:
 
 ```
 ### Referencia:
-[W3C - text-shadow](http://www.w3schools.com/css/css3_shadows.asp)
+[W3C - box-shadow](http://www.w3schools.com/css/css3_shadows.asp)
 
 
 
