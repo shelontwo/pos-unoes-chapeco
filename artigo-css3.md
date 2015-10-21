@@ -33,7 +33,7 @@ A sintaxe para aplicar a `border-image` completa seria da seguinte forma:
 }
 
 ```
-### Referencia:
+### Referência:
 [W3C - border-image](http://www.w3schools.com/css/css3_border_images.asp)
 
 
@@ -63,7 +63,7 @@ A sintaxe para aplicar o `text-shadow` completo seria da seguinte forma:
 }
 
 ```
-### Referencia:
+### Referência:
 [W3C - text-shadow](http://www.w3schools.com/css/css3_shadows.asp)
 
 <h2>box-shadow</h2>
@@ -95,7 +95,7 @@ A sintaxe para aplicar o `box-shadow` completo seria da seguinte forma:
 }
 
 ```
-### Referencia:
+### Referência:
 [W3C - box-shadow](http://www.w3schools.com/css/css3_shadows.asp)
 
 <h2>font-face</h2>
@@ -130,7 +130,7 @@ A sintaxe para aplicar o `@font-face` completo seria da seguinte forma:
       font-family: olamundofonte;
 }
 ```
-### Referencia:
+### Referência:
 [W3C - @font-face](http://www.w3schools.com/css/css3_fonts.asp)
 
 
@@ -175,7 +175,7 @@ Utilizando o `transform-origin`:
 }
 ```
 
-### Referencia:
+### Referência:
 [W3C - transform](http://www.w3schools.com/css/css3_2dtransforms.asp)
 
 
@@ -218,7 +218,53 @@ Utilizando as propriedades disponíveis:
 Outros metodos podem ser utilizados para rotação 3D:
  - `matrix3d(n,n,n,n,n)` , `translate3d(x,y,z)` , `translateX(x)` , `translateY(y)` , `translateZ(z)`, `scale3d(x,y,z)`, `scaleX(x)`, `scaleY(y)`, `scaleZ(z)`, `rotate3d(x,y,z,angle)`, `rotateX(angle)`, `rotateY(angle)`, `rotateZ(angle)`, `perspective(x)`.
 
-### Referencia:
+### Referência:
 [MAUJOR - Tutoriais CSS](http://www.maujor.com/tutorial/css3-modulo-transition.php)
 
------- FIM do artigo ------
+
+<h2>transition</h2>
+##### Funcionalidade: transition
+##### O que é?
+Transition simplesmente fantástico, utilizado para gerar transições de propriedades de elementos.
+##### Onde usar:
+Pode ser usado para o mais diversos efeitos de animação, por exemplo, alterar o tamanho e cor de um botão quando o mouse passar por ele.
+##### Como usar:
+O Transform possui as seguintes opções: 
+- transition - Opção utilizada para definir principalmente o tempo de uma transição de propriedades, declarando cada propriedade o tempo que ela demora para alterar.
+- transition-delay - Opção que determina o tempo que demora para iniciar o efeito apos a ação do transition ser solicitada.
+
+Separando o `transition` em propriedades especificas:
+- transition-property - Determina qual propriedade será alterada.
+- transition-duration - Determina o tempo que levará para o efeito completar.
+- transition-timing-function: - Determina o método de retorno do elemento ao seu estado inicial, podendo ser: `ease`, que é o metodo default, onde o elemento inicia lento, depois rápido, depois lentamente para finalizar. O metodo `liner` onde o efeito se mante na mesma velocidade para todas as etapas. O metodo `ease-in` onde o efeito é feito lentamente durante todo o processo. O metodo `ease-out` onde o efeito finaliza lentamente. O metodo `ease-in-out` onde o efeito é lento no início e ao final da transição.  
+
+```css
+.minha_div {
+    background: <cor>;
+    transition: background <time>;
+}
+
+.minha_div:hover {
+    background: <corefeito>;
+}
+
+```
+##### Exemplo de uso
+A sintaxe para aplicar o `transform` completo seria da seguinte forma:
+
+```css
+.minha_div {
+    background: red; // Determinado a cor inicial de fundo do meu elemento
+    transition: background 2s; // Determinado que levará 2 segundos para o efeito completo
+}
+
+.minha_div:hover {
+    background: green; // Determinado a cor final de fundo do meu elemento após o efeito estar completado.
+}
+```
+
+### Referência:
+[W3C - transition](http://www.w3schools.com/css/css3_transitions.asp)
+
+
+------ FIM do artigo ------ 
