@@ -24,17 +24,17 @@ São 3 propriedades definidas para a imagem de borda:
 }
 ```
 ##### Exemplo de uso
-A sintaxe para aplicar a <code>border-image</code> completa seria da seguinte forma:
+A sintaxe para aplicar a 'border-image' completa seria da seguinte forma:
 
 ```css
 .minha_div{
         border: 10px; // definimos o tamanho da borda
-        border-image: url(image.jpg) 10% stretch; // definimos que a <code>image.jpg</code> irá ser usada 10% do seu tamanho original e será esticada para preencher os espaçõs da borda do elemento.
+        border-image: url(image.jpg) 10% stretch; // definimos que a image.jpg irá ser usada 10% do seu tamanho original e será esticada para preencher os espaçõs da borda do elemento.
 }
 
 ```
 ### Referencia:
-[http://www.w3schools.com/css/css3_border_images.asp](W3C - border-image)
+[W3C - border-image](http://www.w3schools.com/css/css3_border_images.asp)
 
 
 
