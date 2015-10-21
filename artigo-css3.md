@@ -267,4 +267,53 @@ A sintaxe para aplicar o `transform` completo seria da seguinte forma:
 [W3C - transition](http://www.w3schools.com/css/css3_transitions.asp)
 
 
+<h2>@keyframes </h2>
+##### Funcionalidade: @keyframes 
+##### O que é?
+Utilizado para se criar regras de efeito para serem usados em qualquer elemento compativel sem precisar recriar para cada elemento o efeito.
+##### Onde usar:
+Pode ser usado para o mais diversos efeitos de animação, por exemplo, alterar o tamanho e cor de um botão quando o mouse passar por ele e utilizar o keyframe em outro elemento que realizará a mesma animação sem precisar recriar o efeito.
+##### Como usar:
+Primeiramente se declara o `@keyframes` da seguinte maneira: 
+
+```css
+@keyframes artigo_css { // defino a keyframe com um nome qualquer
+    from {width: 800px;} //defino o estado inicial do efeito
+    to {width: 1000px;} // defino o estado final do efeito
+}
+
+.minha_div { // crio um elemento qualquer
+    width: 800px; // determino tamanho de largura
+    height: 900px; // determino tamanho de altura
+    animation-name: artigo_css; // digo qual animaçãp eu vou utilizar
+    animation-duration: 4s; // digo quanto tempo ela vai durar.
+}
+```
+Tambem posso determinar cada % do meio efeito, e outras propriedades interessantes, por exemplo: 
+
+```css
+@keyframes artigo_css_tempo { // defino a keyframe com um nome qualquer
+    0%{width: 800px;}
+    50%{width: 2000px;}
+    100%{width: 1000px;}
+}
+
+.minha_div { // crio um elemento qualquer
+    width: 800px; // determino tamanho de largura
+    height: 900px; // determino tamanho de altura
+    animation-name: artigo_css; // digo qual animaçãp eu vou utilizar
+    animation-duration: 4s; // digo quanto tempo ela vai durar.
+    animation-delay: 1s; // aqui adicionei um pequeno tempo de espera antes de iniciar o efeito.
+    animation-iteration-count: 2; // aqui defino que o efeito será realizado duas vezes, podendo ser setado `infinite`.
+    animation-direction: reverse; // defino que o efeito será de traz para frente, podento ser `alternate` que a cada vez que o efeito inicia ele será de sentido diferente.
+}
+```
+Com o metodo `animation` podemos criar inúmeros efeitos diferentes, deixando seu projeto até mesmo mais atrativo.
+
+
+### Referência:
+[W3C - transition](http://www.w3schools.com/css/css3_transitions.asp)
+
+
+
 ------ FIM do artigo ------ 
