@@ -16,7 +16,7 @@ Em qualquer elemento que disponibilize o atributo border-image.
 São 3 propriedades definidas para a imagem de borda:
 - 1 - URL / Caminho da imagem.
 - 2 - O tamanho que a imagem ficará na borda em relação a seu tamanho original.
- - 3 - Específica se a imagem vai se repetir na borda ou será esticada para o tamanho total da borda.
+- 3 - Específica se a imagem vai se repetir na borda ou será esticada para o tamanho total da borda.
 ```css
 .minha_div{
         border: xy;
@@ -74,10 +74,10 @@ Esta propriedade é utilizada para adicionar sombras a elmentos.
 Em qualquer elemento que possua a propriedade box-shadow.
 ##### Como usar:
 São 4 propriedades definidas para a box-shadow:
-#1 - Posição horizontal da sombra.
-#2 - Posição vertical da sombra.
-#3 - Tamanho da nevoa da sombra em relação ao tamanho original do box.
-#4 - Cor da sombra.
+- 1 - Posição horizontal da sombra.
+- 2 - Posição vertical da sombra.
+- 3 - Tamanho da nevoa da sombra em relação ao tamanho original do box.
+- 4 - Cor da sombra.
 
 Não necessariamente se utiliza as 4 propriedades.
 
@@ -98,6 +98,40 @@ A sintaxe para aplicar o `box-shadow` completo seria da seguinte forma:
 ### Referencia:
 [W3C - box-shadow](http://www.w3schools.com/css/css3_shadows.asp)
 
+<h2>font-face</h2>
+##### Funcionalidade: @font-face
+##### O que é?
+Utilizada para incorporar fontes externas ao seu projeto
+##### Onde usar:
+Deve ser declarada preferêncialmente no início do css.
+##### Como usar:
+São 2 propriedades principais definidas.
+- 1 - `Font-family` onde você difine um nome para a fonte.
+- 2 - `src` onde você define o arquivo que será importado para gerar a fonte.
+
+```css
+@font-face{
+        font-family: <nomedafonte>;
+        src: url(<source>);
+}
+.minha_div{
+      font-family: <nomedafonte>;
+}
+```
+##### Exemplo de uso
+A sintaxe para aplicar o `@font-face` completo seria da seguinte forma:
+
+```css
+@font-face{
+        font-family: olamundofonte;
+        src: url(open_sans.otf);
+}
+.minha_div{
+      font-family: olamundofonte;
+}
+```
+### Referencia:
+[W3C - @font-face](http://www.w3schools.com/css/css3_fonts.asp)
 
 
 
