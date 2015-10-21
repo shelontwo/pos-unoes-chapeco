@@ -38,4 +38,67 @@ A sintaxe para aplicar a `border-image` completa seria da seguinte forma:
 
 
 
+##### Funcionalidade: text-shadow
+##### O que é?
+Esta propriedade é utilizada para adicionar sombras a textos.
+##### Onde usar:
+Em elementos que contenham texto.
+##### Como usar:
+São 4 propriedades definidas para a text-shadow:
+1 - Posição horizontal da sombra.
+2 - Posição vertical da sombra.
+3 - Tamanho da nevoa da sombra em relação ao tamanho original do texto.
+4 - Cor da sombra.
+```css
+.minha_div h1{
+       text-shadow: <x> <y> <z> <color>;
+}
+```
+##### Exemplo de uso
+A sintaxe para aplicar o `text-shadow` completo seria da seguinte forma:
+
+```css
+.minha_div h1{
+        text-shadow: 10px 10px 80px red;
+}
+
+```
+### Referencia:
+[W3C - text-shadow](http://www.w3schools.com/css/css3_shadows.asp)
+
+
+##### Funcionalidade: box-shadow
+##### O que é?
+Esta propriedade é utilizada para adicionar sombras a elmentos.
+##### Onde usar:
+Em qualquer elemento que possua a propriedade box-shadow.
+##### Como usar:
+São 4 propriedades definidas para a box-shadow:
+1 - Posição horizontal da sombra.
+2 - Posição vertical da sombra.
+3 - Tamanho da nevoa da sombra em relação ao tamanho original do box.
+4 - Cor da sombra.
+
+Não necessariamente se utiliza as 4 propriedades.
+
+```css
+.minha_div{
+       box-shadow: <x> <y> <z> <color>;
+}
+```
+##### Exemplo de uso
+A sintaxe para aplicar o `box-shadow` completo seria da seguinte forma:
+
+```css
+.minha_div{
+        box-shadow: 10px 10px 5px green;
+}
+
+```
+### Referencia:
+[W3C - text-shadow](http://www.w3schools.com/css/css3_shadows.asp)
+
+
+
+
 ------ FIM do artigo ------
