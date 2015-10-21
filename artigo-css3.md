@@ -312,8 +312,51 @@ Com o metodo `animation` podemos criar inúmeros efeitos diferentes, deixando se
 
 
 ### Referência:
-[W3C - transition](http://www.w3schools.com/css/css3_transitions.asp)
+[W3C - css3_animations](http://www.w3schools.com/css/css3_animations.asp)
 
 
+<h2>Multi-column  </h2>
+##### Funcionalidade: Multi-column  
+##### O que é?
+Utilizado para se criar colunas de texto dentro de elementos .
+##### Onde usar:
+Pode ser utilizado para se divider conteúdo de texto em colunas para se facilitar a leitura.
+##### Como usar:
+A utilização é meramente simples, veja o exemplo: 
 
+```css
+@keyframes artigo_css { // defino a keyframe com um nome qualquer
+    from {width: 800px;} //defino o estado inicial do efeito
+    to {width: 1000px;} // defino o estado final do efeito
+}
+
+.minha_div { // crio um elemento qualquer
+    width: 800px; // determino tamanho de largura
+    height: 900px; // determino tamanho de altura
+    animation-name: artigo_css; // digo qual animaçãp eu vou utilizar
+    animation-duration: 4s; // digo quanto tempo ela vai durar.
+}
+```
+Tambem posso determinar cada % do meio efeito, e outras propriedades interessantes, por exemplo: 
+
+```css
+
+.minha_div { // crio um elemento qualquer
+   column-count: 3; //defino que o texto deste elemento será dividido em 3 colunas verticais.
+   column-fill: auto; // definido que as colunas serão geradas com seu conteudo possivelmente com tamanhos diferentes, podendo ser usado, `balance`, aonde as colunas são mantidas semelhantes em seu tamanho, `initial`, `inherit`.
+   column-gap: 80px; // determina o espaço entra cada coluna
+   column-rule-color: red; // determina que as colunas serão vermelhas
+   column-rule-style: solid; // determina que as colunas terão o formato solido, partindo do princípio de borda.
+   column-rule-width: 10px; // determina que a borda da coluna possui 10px de largura
+   column-width: 40px; // detrmina que a coluna terá 40px de largura cada
+}
+.minha_div h1{
+     column-span: all; // determino que meu elemento `h1` detro da `.minha_div` não obedecerá as regras de colunas.
+}
+
+```
+Ainda não é muito utilizado esta opção por ter suporte fraco para navegadores mais antigos.
+
+### Referência:
+[W3C - multi-column ](http://www.w3schools.com/css/css3_multiple_columns.asp)
 ------ FIM do artigo ------ 
