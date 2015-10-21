@@ -2,34 +2,40 @@
 #### Pós-graduação em Desenvolvimento Web, Cloud e dispositivos móveis - WebMob
 #### Disciplina: HTML5+CSS3
 #### Professor: Jean Carlo Nascimento
-#### Acadêmico(a): Bla Bla Bla Bla
+#### Acadêmico(a): Evandro Diego Erlo
 ### Artigo de revisão de CSS3
-##### Funcionalidade: border-radius
+
+<h1>Funcionalidades CSS3 </h1>
+
+##### Funcionalidade: border-image
 ##### O que é?
-A propriedade CSS3 border-radius destina-se a definir bordas arredondadas. O arredondamento das bordas é feito com declaração de dois valores CSS de medida; o primeiro define o eixo horizontal (rx) de 1/4 de uma elipse e o segundo o eixo vertical (ry). O quarto de elipse assim definida é convenientemente inserida no canto vivo do box arredondando-o. O diagrama a seguir esclarece o esquema de arredondamento.
+Esta propriedade é utilizada para adicionar uma imagem de borda em elementos da página.
 ##### Onde usar:
-Em qualquer elemento que possui o atributo border.
+Em qualquer elemento que disponibilize o atributo border-image.
 ##### Como usar:
+São 3 propriedades definidas para a imagem de borda:
+1 - URL / Caminho da imagem.
+2 - O tamanho que a imagem ficará na borda em relação a seu tamanho original.
+3 - Específica se a imagem vai se repetir na borda ou será esticada para o tamanho total da borda.
 ```css
-seletor {border-radius:
-[ <length> | <percentage> ]{1,4} [ / [ <length> | <percentage> ]{1,4} ]?);
+.minha_div{
+        border: xy;
+        border-image: url(<source>) <size>  <type>;
 }
 ```
 ##### Exemplo de uso
-A sintaxe geral para aplicar borda arredondada é mostrada a seguir.
+A sintaxe para aplicar a <code>border-image</code> completa seria da seguinte forma:
 
 ```css
-seletor {
-  border-top-left-radius: rx ry;
-  border-top-right-radius: rx ry;
-  border-bottom-right-radius: rx ry;
-  border-bottom-left-radius: rx ry;
+.minha_div{
+        border: 10px; // definimos o tamanho da borda
+        border-image: url(image.jpg) 10% stretch; // definimos que a <code>image.jpg</code> irá ser usada 10% do seu tamanho original e será esticada para preencher os espaçõs da borda do elemento.
 }
 
 ```
 ### Referencia:
-[http://www.maujor.com/tutorial/interativo-css3/inc/borderradius.php](http://www.maujor.com/tutorial/interativo-css3/inc/borderradius.php)
+[http://www.w3schools.com/css/css3_border_images.asp](W3C - border-image)
 
-<repetir para as demais funcionalidades>
+
 
 ------ FIM do artigo ------
