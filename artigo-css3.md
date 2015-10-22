@@ -359,4 +359,71 @@ Ainda não é muito utilizado esta opção por ter suporte fraco para navegadore
 
 ### Referência:
 [W3C - multi-column ](http://www.w3schools.com/css/css3_multiple_columns.asp)
+
+
+<h2>Box Sizing </h2>
+##### Funcionalidade: Multi-column  
+##### O que é?
+Utilizado para que quando determinado `width`, `height` e `padding` a algum elemente, eles sejam somados a largura e altura total do elemento. 
+##### Onde usar:
+É utilizado normalmente por default em todo css, para que todos os elementos a utilizem.
+##### Como usar:
+A utilização é meramente simples, veja o exemplo: 
+
+```css
+* {
+    box-sizing: border-box;
+}
+```
+
+### Referência:
+[W3C - Box Sizing ](http://www.w3schools.com/css/css3_box-sizing.asp)
+
+
+<h2>:target Selector</h2>
+##### Funcionalidade: :target Selector 
+##### O que é?
+Utilizado para ativar propriedades em elementos especificados em target de link por exemplo.
+##### Onde usar:
+Destacar parte de um texto ao clicar em determinado elemento.
+##### Como usar:
+A utilização é meramente simples, veja o exemplo: 
+
+```css
+.oculta {
+    display: none;
+}
+
+.template div:target {
+    display: block;
+}
+```
+
+
+```html
+<div class="template">
+  <a href="#tab1">Tab 1</a>   
+  <a href="#tab2">Tab 1</a>
+  <a href="#tab3">Tab 3</a>
+
+  <div id="tab1" class="oculta">
+    tab 1
+  </div>
+ 
+  <div id="tab2" class="oculta">
+    tab 2
+  </div>
+
+  <div id="tab3" class="oculta">
+    tab 3
+  </div>
+</div>
+
+```
+Este método informei que toda vez que clincar em um link, ele aplica em sua âncora o style que foi definido no elemento `:target`.
+
+### Referência:
+[W3C - CSS3 :target Selector](http://www.w3schools.com/cssref/sel_target.asp)
+
+
 ------ FIM do artigo ------ 
