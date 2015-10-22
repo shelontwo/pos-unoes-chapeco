@@ -388,7 +388,7 @@ Utilizado para ativar propriedades em elementos especificados em target de link 
 Destacar parte de um texto ao clicar em determinado elemento.
 ##### Como usar:
 A utilização é meramente simples, veja o exemplo: 
-
+CSS: 
 ```css
 .oculta {
     display: none;
@@ -398,7 +398,7 @@ A utilização é meramente simples, veja o exemplo:
     display: block;
 }
 ```
-
+HTML: 
 
 ```html
 <div class="template">
