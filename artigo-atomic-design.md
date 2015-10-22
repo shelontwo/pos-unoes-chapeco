@@ -23,7 +23,8 @@ O Atomic Design, funcina de maneira semelhante a átomos, moléculas e organismo
 	- Átomos, em conceito químico átomo é aquilo que não pode ser dividido, logo em web, átomo pode ser qualquer tag HTML que não necessita de nenhum contexto para existir, exemplo uma tag `<i>`.
     - Moléculas, em conceito químico, são agrupamentos de atómos, logo em web pode ser usado por exemplo em uma Label de formulário com um campo input de texto, que juntos formam um outro objeto que pode ser utilizado para vários outras pontas do projeto.
 	- Organismos, seria uma junção de moléculas para se formar algo novo, seguindo nosso exemplo, com a molécula da label com o input podemos juntar ela várias vezes e ja criar um organismo ligeiramente criando um formulário, mesmo dentro deste organismo podem existir outros organismos como por exemplo o botão deste formulário ser gerado através da junção de várias outras moléculas que podem ser originadas de Átomos de CSS, JS e afins.
-    - Templates 
+    - Templates, esta teoria todo mundo já conhece, é onde já se tem algo mais visualmente estruturado, sendo semelhantes as wireframes de um projeto, é a junção de vários organismos gerados com todos os átomos inicialmente criados.
+    - Páginas, por fim chegamos ao contexto de página, que nada mais é da estrutra final de todos os organismos, moléculas, templates, átomos que foram projetados para serem usados na geração de todas as páginas do projeto, esta seria a etapa final, por sua vez, a estrutura concluida.
 
 3) Para que usar
 
@@ -35,7 +36,7 @@ O Atomic design segundo artigo públicado em `nomadev` referênciado pela Filoso
 
 5) Exemplos:
 
-Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla.
+ 
 
 6) Referências
 
