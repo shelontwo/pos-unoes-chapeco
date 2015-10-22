@@ -21,9 +21,9 @@ O Atomic Design, funcina de maneira semelhante a átomos, moléculas e organismo
 
 - Partes do Atomic Design
 	- Átomos, em conceito químico átomo é aquilo que não pode ser dividido, logo em web, átomo pode ser qualquer tag HTML que não necessita de nenhum contexto para existir, exemplo uma tag `<i>`.
-    - Teste
-	- Moléculas, em conceito químico, são agrupamentos de atómos, logo em web pode ser usado por exemplo em uma Label de formulário com um campo input de texto, que juntos formam um outro objeto que pode ser utilizado para vários outras pontas do projeto.
-	- 
+    - Moléculas, em conceito químico, são agrupamentos de atómos, logo em web pode ser usado por exemplo em uma Label de formulário com um campo input de texto, que juntos formam um outro objeto que pode ser utilizado para vários outras pontas do projeto.
+	- Organismos, seria uma junção de moléculas para se formar algo novo, seguindo nosso exemplo, com a molécula da label com o input podemos juntar ela várias vezes e ja criar um organismo ligeiramente criando um formulário, mesmo dentro deste organismo podem existir outros organismos como por exemplo o botão deste formulário ser gerado através da junção de várias outras moléculas que podem ser originadas de Átomos de CSS, JS e afins.
+    - Templates 
 
 3) Para que usar
 
