@@ -36,12 +36,18 @@ O Atomic design segundo artigo públicado em `nomadev` referênciado pela Filoso
 
 5) Exemplos:
 
+Vamos usar o exemplo que tivemos de base para esclarecimentos:
+- Meus átomos:
+```html
+<label>olá mundo</label>
+```html
  
 
 6) Referências
 
--http://tableless.com.br/o-que-e-design-atomic/
--http://pt.slideshare.net/bradfrostweb/atomic-design
--http://nomadev.com.br/atomic-design-por-que-usar/
--http://atomicdesign.bradfrost.com/chapter-1/
+-#####http://tableless.com.br/o-que-e-design-atomic/
+-#####http://pt.slideshare.net/bradfrostweb/atomic-design
+-#####http://nomadev.com.br/atomic-design-por-que-usar/
+-#####http://atomicdesign.bradfrost.com/chapter-1/
+-#####http://www.frontendbrasil.com.br/tutoriais/atomic-design-como-funciona/
 ------ FIM do artigo ------
