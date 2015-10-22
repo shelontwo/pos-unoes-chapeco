@@ -21,6 +21,7 @@ O Atomic Design, funcina de maneira semelhante a átomos, moléculas e organismo
 
 - Partes do Atomic Design
 	- Átomos, em conceito químico átomo é aquilo que não pode ser dividido, logo em web, átomo pode ser qualquer tag HTML que não necessita de nenhum contexto para existir, exemplo uma tag `<i>`.
+    - Teste
 	- Moléculas, em conceito químico, são agrupamentos de atómos, logo em web pode ser usado por exemplo em uma Label de formulário com um campo input de texto, que juntos formam um outro objeto que pode ser utilizado para vários outras pontas do projeto.
 	- 
 
@@ -38,8 +39,8 @@ Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla Bla 
 
 6) Referências
 
-http://tableless.com.br/o-que-e-design-atomic/
-http://pt.slideshare.net/bradfrostweb/atomic-design
-http://nomadev.com.br/atomic-design-por-que-usar/
-http://atomicdesign.bradfrost.com/chapter-1/
+-http://tableless.com.br/o-que-e-design-atomic/
+-http://pt.slideshare.net/bradfrostweb/atomic-design
+-http://nomadev.com.br/atomic-design-por-que-usar/
+-http://atomicdesign.bradfrost.com/chapter-1/
 ------ FIM do artigo ------
