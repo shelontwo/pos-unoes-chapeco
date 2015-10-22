@@ -40,7 +40,7 @@ Vamos usar o exemplo que tivemos de base para esclarecimentos:
 - Meus átomos:
 ```html
 <label>olá mundo</label>
-```html
+html
  
 
 6) Referências
