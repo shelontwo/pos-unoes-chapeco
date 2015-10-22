@@ -426,4 +426,4 @@ Este método informei que toda vez que clincar em um link, ele aplica em sua ân
 [W3C - CSS3 :target Selector](http://www.w3schools.com/cssref/sel_target.asp)
 
 
------- FIM do artigo ------ 
+------ FIM do artigo CSS3 ------ 
