@@ -115,13 +115,13 @@ Vamos usar o exemplo que tivemos de base para esclarecimentos:
 </form>
 ```
 
-- Template:
-ja deixando melhor visualmente juntando com outras Moléculas, Átomos diversos.
+-Template:
+#######ja deixando melhor visualmente juntando com outras Moléculas, Átomos diversos.
 [Exemplo aqui](http://codepen.io/shelontwo/pen/epVGJV)
 
-- Página:
+-Página:
 
-Finalizado por exemplo a página de contato.
+#######Finalizado por exemplo a página de contato.
 
 [Exemplo aqui](http://codepen.io/shelontwo/pen/NGyabd)
 
