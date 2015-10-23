@@ -39,9 +39,92 @@ O Atomic design segundo artigo públicado em `nomadev` referênciado pela Filoso
 Vamos usar o exemplo que tivemos de base para esclarecimentos:
 - Meus átomos:
 ```html
-<label>olá mundo</label>
-html
- 
+<label>Nome</label>
+
+<form></form>
+
+<label>Data de nascimento</label>
+
+<input type="text">
+
+<input type="date">
+
+<input type="submit">
+
+<div></div>
+```
+```css
+    display: block;
+    
+    font-size: 15px;
+    
+    font-family: 'Arial'; 
+    
+    color:purple; 
+    
+    width:100%;
+    
+    float: left; 
+
+```
+- Moléculas:
+```html
+    
+    <div class="linha_form">
+        <label>Nome</label>
+        <input type="text">
+    </div>
+
+    <div class="linha_form">
+        <label>Data de nascimento</label>
+        <input type="date">
+    </div>
+    
+    <div class="linha_form">
+        <input type="submit">
+    </div>
+
+```
+```css
+    .linha_form{
+        display: block;
+        font-size: 15px;
+        font-family: 'Arial'; 
+        color:purple; 
+    }
+    label{
+      width:100%;
+      float: left; 
+    }
+``` 
+-Organismo
+
+```html
+<form>
+    <div class="linha_form">
+        <label>Nome</label>
+        <input type="text">
+    </div>
+    <div class="linha_form">
+        <label>Data de nascimento</label>
+        <input type="date">
+    </div>
+    <div class="linha_form">
+        <input type="submit">
+    </div>
+</form>
+```
+
+- Template:
+ja deixando melhor visualmente juntando com outras Moléculas, Átomos diversos.
+[Exemplo aqui](http://codepen.io/shelontwo/pen/epVGJV)
+
+- Página:
+
+Finalizado por exemplo a página de contato.
+
+[Exemplo aqui](http://codepen.io/shelontwo/pen/NGyabd)
+
 
 6) Referências
 
