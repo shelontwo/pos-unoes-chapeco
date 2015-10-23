@@ -116,21 +116,21 @@ Vamos usar o exemplo que tivemos de base para esclarecimentos:
 ```
 
 -Template:
-#######ja deixando melhor visualmente juntando com outras Moléculas, Átomos diversos.
+######ja deixando melhor visualmente juntando com outras Moléculas, Átomos diversos.
 [Exemplo aqui](http://codepen.io/shelontwo/pen/epVGJV)
 
 -Página:
 
-#######Finalizado por exemplo a página de contato.
+######Finalizado por exemplo a página de contato.
 
 [Exemplo aqui](http://codepen.io/shelontwo/pen/NGyabd)
 
 
 6) Referências
 
--#####http://tableless.com.br/o-que-e-design-atomic/
--#####http://pt.slideshare.net/bradfrostweb/atomic-design
--#####http://nomadev.com.br/atomic-design-por-que-usar/
--#####http://atomicdesign.bradfrost.com/chapter-1/
--#####http://www.frontendbrasil.com.br/tutoriais/atomic-design-como-funciona/
+#####http://tableless.com.br/o-que-e-design-atomic/
+#####http://pt.slideshare.net/bradfrostweb/atomic-design
+#####http://nomadev.com.br/atomic-design-por-que-usar/
+#####http://atomicdesign.bradfrost.com/chapter-1/
+#####http://www.frontendbrasil.com.br/tutoriais/atomic-design-como-funciona/
 ------ FIM do artigo ------
